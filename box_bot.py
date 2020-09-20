@@ -43,7 +43,7 @@ def main():
 
   while searching:
       try:
-          # look for text using xpath
+          # look pre-order btn
           print("looking for pre-order btn")
           preorder_btn = browser.find_element_by_xpath("/html/body/div[4]/main/div[1]/div[3]/div[2]/div/div/div[8]/div[1]/div/div/button")
           text = preorder_btn.text
